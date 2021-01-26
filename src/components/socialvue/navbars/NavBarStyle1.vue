@@ -44,7 +44,7 @@
                         <div class="iq-card shadow-none m-0">
                           <div class="iq-card-body p-0 ">
                               <div class="bg-primary p-3">
-                                <h5 class="mb-0 text-white">Friend Request<small class="badge  badge-light float-right pt-1">4</small></h5>
+                                <h5 class="mb-0 text-white">好友请求<small class="badge  badge-light float-right pt-1">4</small></h5>
                               </div>
                               <div class="iq-friend-request" v-for="(item,index) in userFriendRequest" :key="index">
                                 <div class="iq-sub-card iq-sub-card-big d-flex align-items-center justify-content-between" >
@@ -59,12 +59,12 @@
                                     </div>
                                     <div class="d-flex align-items-center">
                                       <a href="#" class="mr-3 btn btn-primary rounded">Confirm</a>
-                                      <a href="#" class="mr-3 btn btn-secondary rounded">Delete Request</a>
+                                      <a href="#" class="mr-3 btn btn-secondary rounded">Delte</a>
                                     </div>
                                 </div>
                               </div>
                               <div class="text-center">
-                                <a href="#" class="mr-3 btn text-primary">View More Request</a>
+                                <a href="#" class="mr-3 btn text-primary">查看更多好友邀请</a>
                               </div>
                           </div>
                         </div>
@@ -79,7 +79,7 @@
                         <div class="iq-card shadow-none m-0">
                           <div class="iq-card-body p-0 ">
                               <div class="bg-primary p-3">
-                                <h5 class="mb-0 text-white">All Notifications<small class="badge  badge-light float-right pt-1">4</small></h5>
+                                <h5 class="mb-0 text-white">我的通知<small class="badge  badge-light float-right pt-1">4</small></h5>
                               </div>
                               <a href="#" class="iq-sub-card" >
                                 <div class="media align-items-center">
@@ -144,7 +144,7 @@
                         <div class="iq-card shadow-none m-0">
                           <div class="iq-card-body p-0 ">
                               <div class="bg-primary p-3">
-                                <h5 class="mb-0 text-white">All Messages<small class="badge  badge-light float-right pt-1">5</small></h5>
+                                <h5 class="mb-0 text-white">我的消息<small class="badge  badge-light float-right pt-1">5</small></h5>
                               </div>
                               <a href="#" class="iq-sub-card" >
                                 <div class="media align-items-center">
@@ -224,8 +224,8 @@
                                       <i class="ri-file-user-line"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                      <h6 class="mb-0 ">My Profile</h6>
-                                      <p class="mb-0 font-size-12">View personal profile details.</p>
+                                      <h6 class="mb-0 ">个人中心</h6>
+                                      <p class="mb-0 font-size-12">点击查看个人中心.</p>
                                     </div>
                                 </div>
                               </router-link>
@@ -235,8 +235,8 @@
                                       <i class="ri-profile-line"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                      <h6 class="mb-0 ">Edit Profile</h6>
-                                      <p class="mb-0 font-size-12">Modify your personal details.</p>
+                                      <h6 class="mb-0 ">编辑信息</h6>
+                                      <p class="mb-0 font-size-12">点击编辑个人信息.</p>
                                     </div>
                                 </div>
                               </router-link>
@@ -246,8 +246,8 @@
                                       <i class="ri-account-box-line"></i>
                                     </div>
                                     <div class="media-body ml-3">
-                                      <h6 class="mb-0 ">Account settings</h6>
-                                      <p class="mb-0 font-size-12">Manage your account parameters.</p>
+                                      <h6 class="mb-0 ">账户设置</h6>
+                                      <p class="mb-0 font-size-12">点击设置个人账户.</p>
                                     </div>
                                 </div>
                               </router-link>
